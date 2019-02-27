@@ -5,7 +5,7 @@ class Hash
      self.each do |key, value|
   binding.pry
        if(value.to_s == args)
-          array << key
+          array << key.to-s
        end
      end
      array# code goes here
