@@ -1,6 +1,6 @@
 class Hash
   def keys_of(*args)
     keys_of_hash = []
-    puts args# code goes here
+    p args# code goes here
   end
 end
