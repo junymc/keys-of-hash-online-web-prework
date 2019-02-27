@@ -4,7 +4,7 @@ class Hash
     array =[]
      self.each do |key, value|
   binding.pry
-       if(value.to_s == args)
+       if(value == args)
           array << key
        end
      end
