@@ -3,4 +3,5 @@ class Hash
     keys_of_hash = []
     # code goes here
   end
+  keys_of_hash
 end
